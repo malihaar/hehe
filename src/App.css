@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
-}
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); */
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-family: 'Gilroy-Heavy', sans-serif;
+  font-family: 'Gilroy-Light', sans-serif;
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: 'Gilroy', sans-serif;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* 
+.container {
+  padding-top: 0;
+  background-color: #F3F3F3;
+  overflow:auto;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+} */
+
+/* .container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+} */
+/* 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color:#000;
+  width: 50px;
+  height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:focus {
+  outline: none;
 }
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.idea {
+  background: #FFFFFF;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 45%;
+box-shadow: 10px 30px 30px 3px rgba(177, 188, 199, 0.15);
+border-radius: 20px;
+}
+
+.idea.reminder {
+  border-left: 14px solid #F4B860;
+}
+
+.idea h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+} */
